@@ -60,7 +60,7 @@
 
 下面我们就用余弦相似度算法来比较《三国演义》和《西游记》俩本书的相似度。 
 1、分词 
-
+```python
 import numpy as np import math import jieba.posseg as psg
 
 def cut_word(name,max_number):
@@ -168,3 +168,5 @@ get_cos(name1,name2,2000)
 #结果如下： 
 
 三国演义.txt文章与西游记.txt文章相似度为：35.41%
+
+```
