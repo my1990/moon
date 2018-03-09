@@ -60,10 +60,10 @@
 　（4）计算两个向量的余弦相似度，值越大就表示越相似。
 
 下面我们就用余弦相似度算法来比较《三国演义》和《西游记》俩本书的相似度。 
-1、分词 
+
 ```python
 import numpy as np import math import jieba.posseg as psg
-
+1、分词 
 def cut_word(name,max_number):
     # with open(name,'r',encoding='utf-8') as f: 
         text = f.read() 
