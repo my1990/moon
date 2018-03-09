@@ -95,6 +95,9 @@ for word, freq in sort_word[: max_number]:
     result.append(dict1)
 print(result)
 return result,len(word_list)
+
+
+
 2、分词结束后，就是拿俩篇文章分词的结果去计算了，函数如下：
 
 #num参数表示取去重后的多少个词，
